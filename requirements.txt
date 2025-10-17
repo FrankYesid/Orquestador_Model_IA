@@ -1,0 +1,28 @@
+# Apache Airflow y dependencias core
+apache-airflow==2.8.1
+apache-airflow-providers-sqlite==3.6.0
+
+# Procesamiento de datos
+pandas==2.1.4
+numpy==1.26.3
+
+# Base de datos
+SQLAlchemy==1.4.51
+sqlite3worker==1.1.7
+
+# Variables de entorno
+python-dotenv==1.0.0
+
+# Utilidades
+python-dateutil==2.8.2
+pendulum==3.0.0
+
+# Testing (opcional)
+pytest==7.4.3
+pytest-cov==4.1.0
+
+# Logging mejorado
+colorlog==6.8.0
+
+# Validación de datos
+great-expectations==0.18.8
